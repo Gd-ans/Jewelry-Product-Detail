@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+
+    .logo img {
+        height: 50px;
+    }
+
+    .currency-selector {
+        select {
+            padding: 5px 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+            background: white;
+            color: #000;
+        }
+    }
+}

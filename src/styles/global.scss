@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: white;
+    color: #000;
+}
+
+
+button,
+button:focus,
+button:focus-visible {
+    outline: none;
+}

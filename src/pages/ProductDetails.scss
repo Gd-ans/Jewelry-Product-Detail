@@ -1,0 +1,27 @@
+.product-detail-page {
+    // max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    min-height: 600px;
+}
+
+@media (max-width: 768px) {
+    .product-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.realted-product-main-wrapper {
+    width: 90%;
+    margin: auto;
+
+    @media (max-width:768px) {
+        width: 100%;
+    }
+}
